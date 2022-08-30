@@ -1,7 +1,7 @@
 public class Ovrlodng{
-  static int x = 2;
-  static int y = 4;
-   static int a= 6;
+   int x = 2;
+   int y = 4;
+    int a= 6;
         public int abc(){
             return this.x;
         }
@@ -14,7 +14,7 @@ public class Ovrlodng{
             return this.a;
         }
         
-       static void add (){
+        void add (){
            x = x+1;
            y = y+1;
             a++;
