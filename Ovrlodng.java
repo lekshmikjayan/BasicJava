@@ -15,9 +15,9 @@ public class Ovrlodng{
         }
         
         void add (){
-           x = x+1;
+           x = x+44;
            y = y+1;
-            a++;
+            a = x +y;;
         }
 
         public static void main (String [] args){
